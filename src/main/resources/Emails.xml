@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Emails>
+    <Email id = "1">
+        <from>accnumber1@tut.by</from>
+        <to>accnumber2@tut.by</to>
+        <cc>accnumber2@tut.by</cc>
+        <bcc>accnumber2@tut.by</bcc>
+        <subject>Test E-Mail </subject>
+        <text>This is a test email. Sent </text>
+    </Email>
+</Emails>
