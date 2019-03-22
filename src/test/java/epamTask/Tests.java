@@ -35,7 +35,7 @@ public class Tests {
     @BeforeClass
     public void initDriver() {
         ChromeOptions options = new ChromeOptions();
-        options.setPageLoadStrategy(PageLoadStrategy.NONE); // https://www.skptricks.com/2018/08/timed-out-receiving-message-from-renderer-selenium.html
+//        options.setPageLoadStrategy(PageLoadStrategy.NONE); // https://www.skptricks.com/2018/08/timed-out-receiving-message-from-renderer-selenium.html
         options.addArguments("start-maximized"); // https://stackoverflow.com/a/26283818/1689770
         options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
         options.addArguments("--headless"); // only if you are ACTUALLY running headless
