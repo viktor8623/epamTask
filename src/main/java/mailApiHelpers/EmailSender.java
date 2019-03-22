@@ -17,7 +17,7 @@ public class EmailSender {
 
         Properties properties = new Properties();
         try {
-            properties.load(new FileInputStream("src\\main\\resources\\mail.properties"));
+            properties.load(new FileInputStream("src/main/resources/mail.properties"));
         } catch (IOException ex) {
             ex.printStackTrace();
             Reporter.log("Error occurred while trying to read email properties.");
