@@ -33,6 +33,7 @@ public class MainPage {
         loginInput.sendKeys(login);
         passwordInput.sendKeys(password);
         loginButton.click();
+        System.out.println("User is logged in with login " + login + " and password " + password);
         Reporter.log("User is logged in with login " + login + " and password " + password);
     }
 }
