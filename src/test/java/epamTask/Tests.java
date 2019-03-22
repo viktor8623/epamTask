@@ -36,10 +36,11 @@ public class Tests {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
+        options.addArguments("--disable-gpu");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(200, TimeUnit.SECONDS);
         mainPage = new MainPage(driver);
         mailBoxPage = new MailBoxPage(driver);
         emailPage = new EmailPage(driver);
