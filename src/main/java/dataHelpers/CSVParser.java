@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CSVParser extends DataManager {
-    private static final String URI_FOR_CREDENTIALS = "src\\main\\resources\\Credentials.csv";
-    private static final String URI_FOR_EMAILS = "src\\main\\resources\\Emails.csv";
+    private static final String URI_FOR_CREDENTIALS = "src/main/resources/Credentials.csv";
+    private static final String URI_FOR_EMAILS = "src/main/resources/Emails.csv";
     private static final String CSV_SPLIT_BY = ",";
 
     private static ArrayList<String> readFile(String csvFile) {

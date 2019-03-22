@@ -16,8 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XMLParser extends DataManager {
-    private static final String URI_FOR_CREDENTIALS = "src\\main\\resources\\Credentials.xml";
-    private static final String URI_FOR_EMAILS = "src\\main\\resources\\Emails.xml";
+    private static final String URI_FOR_CREDENTIALS = "src/main/resources/Credentials.xml";
+    private static final String URI_FOR_EMAILS = "src/main/resources/Emails.xml";
 
     private Document initParser(String uri) {
         Document document = null;
